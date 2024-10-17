@@ -12,7 +12,7 @@ Source0: %{distname}.zip
 Patch0:  xf86-input-hidtouch-9.04.04-xiABI3.patch
 License: GPLv3+
 Group: System/X11
-Url: http://sourceforge.net/projects/hidtouchsuite/
+Url: https://sourceforge.net/projects/hidtouchsuite/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: x11-server-devel libx11-devel x11-util-macros
 
