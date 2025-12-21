@@ -14,6 +14,11 @@ License: GPLv3+
 Group: System/X11
 Url: https://sourceforge.net/projects/hidtouchsuite/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: x11-server-devel libx11-devel x11-util-macros
 
 %description
