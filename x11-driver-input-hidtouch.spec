@@ -2,7 +2,7 @@
 %define sname xf86-input-hidtouch
 %define version 9.04.04
 %define distname %{sname}-%{version}
-%define release %mkrel 1
+%define release 2
 
 Summary: hidtouch input device driver
 Name: %{name}
